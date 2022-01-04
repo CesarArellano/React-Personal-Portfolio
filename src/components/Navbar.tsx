@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react'
 
 export const Navbar = () => {
+  
   const [isActiveNavbar, setIsActiveNavbar] = useState(false)
   const [isModeSticky, setIsModeSticky] = useState(false);
-
-  
 
   useEffect(() => {
     
