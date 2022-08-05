@@ -1,6 +1,6 @@
 @font-face {
   font-family: Poppins;
-  src: url(./static/media/Poppins-Light.f41b63c0bb0963ace821.ttf)
+  src: url(../media/Poppins-Light.f41b63c0bb0963ace821.ttf)
 }
 
 * {
@@ -17,7 +17,7 @@ section {
 
 .banner {
   align-items: center;
-  background: url(./static/media/banner.cf5fd56d293265c01688.jpg), #0000003f;
+  background: url(../media/banner.cf5fd56d293265c01688.jpg), #0000003f;
   background-blend-mode: darken;
   background-position: 100%;
   background-size: cover;
