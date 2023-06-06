@@ -1,12 +1,11 @@
-import { useEffect, useState } from 'react'
+import { useLayoutEffect, useState } from 'react'
 
 export const Navbar = () => {
   
   const [isActiveNavbar, setIsActiveNavbar] = useState(false)
   const [isModeSticky, setIsModeSticky] = useState(false);
 
-  useEffect(() => {
-    
+  useLayoutEffect(() => {
     const updateModeSticky = () => {
       setIsModeSticky( window.scrollY > 0 )
     }
@@ -22,10 +21,10 @@ export const Navbar = () => {
   }
 
   return (
-    <header className={ (isModeSticky ) ? 'sticky' : '' }>
+    <header className={ `${ (isModeSticky ) && 'sticky' }`}>
       <a href="#" className="logo"> Portfolio </a>
-      <div className="toggle" onClick={ toggleMenu }></div>
-      <ul className={ `menu ${ isActiveNavbar ? 'active' : '' }`}>
+      <div className={ `toggle ${ isActiveNavbar && 'active' }` } onClick={ toggleMenu }></div>
+      <ul className={ `menu ${ isActiveNavbar && 'active' } `}>
         <li><a href="#home" onClick={ toggleMenu }> Home </a></li>
         <li><a href="#about" onClick={ toggleMenu }> About </a></li>
         <li><a href="#services" onClick={ toggleMenu }> Services </a></li>

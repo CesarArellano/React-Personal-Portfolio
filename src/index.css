@@ -1,6 +1,6 @@
 @font-face {
   font-family: Poppins;
-  src: url(../public/assets/fonts/Poppins-Light.ttf);
+  src: url(./assets/fonts/Poppins-Light.ttf);
 }
 
 * {
@@ -20,7 +20,7 @@ section {
   position: relative;
   min-height: 100vh;
   background-blend-mode: darken;
-  background: url('../public/assets/images/banner.jpg'), #0000003f;
+  background: url('./assets/images/banner.jpg'), #0000003f;
   background-size: cover;
   background-position: right;
   display: flex;
@@ -81,6 +81,10 @@ header.sticky .logo {
 }
 
 header.sticky .toggle {
+  filter: invert(1);
+}
+
+header.sticky .toggle.active {
   filter: invert(1);
 }
 
@@ -598,16 +602,15 @@ p {
   .toggle {    
     width: 40px;
     height: 40px;
-    background: url("../public/assets/images/menu.png");
+    background: url("./assets/images/menu.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 30px;
     cursor: pointer;
   }
 
-  .toggle.active {    
-    filter: invert(1);
-    background: url("../public/assets/images/close.png");
+  .toggle.active {
+    background: url("./assets/images/close.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 25px;

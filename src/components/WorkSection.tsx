@@ -1,3 +1,7 @@
+import product1 from '../assets/images/product1.jpg';
+import product2 from '../assets/images/product2.jpg';
+import product3 from '../assets/images/product3.jpg';
+import product4 from '../assets/images/product4.jpg';
 
 export const WorkSection = () => {
   return (
@@ -9,16 +13,16 @@ export const WorkSection = () => {
     </div>
     <div className="content">
       <div className="workBx">
-        <img src="./assets/images/product1.jpg" alt="product 1" className="hoverable" />
+        <img src={ product1 } alt="product 1" className="hoverable" />
       </div>
       <div className="workBx">
-        <img src="./assets/images/product2.jpg" alt="product 2" className="hoverable" />
+        <img src={ product2 } alt="product 2" className="hoverable" />
       </div>
       <div className="workBx">
-        <img src="./assets/images/product3.jpg" alt="product 3" className="hoverable" />
+        <img src={ product3 } alt="product 3" className="hoverable" />
       </div>
       <div className="workBx">
-        <img src="./assets/images/product4.jpg" alt="product 4" className="hoverable" />
+        <img src={ product4 } alt="product 4" className="hoverable" />
       </div>
       <div className="heading-btn">
         <a href="https://github.com/CesarArellano?tab=repositories" target="_blank" className="btn-view hoverable" rel="noreferrer">View More</a>

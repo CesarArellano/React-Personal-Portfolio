@@ -57,7 +57,7 @@ export const ContactSection = () => {
               </div>
               <div className="box">
                 <div className="social-icon">
-                  <a href="https://www.linkedin.com/in/c%C3%A9sar-mauricio-arellano-vel%C3%A1squez-7a611a195/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/cesararellanov/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a>
                 </div>
                 <div className="social-icon">
                   <a href="https://github.com/CesarArellano" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>              

@@ -1,3 +1,5 @@
+import img1 from '../assets/images/img1.jpg'
+import cv from '../assets/documents/cv.pdf';
 
 export const AboutMeSection = () => {
   return (
@@ -24,11 +26,11 @@ export const AboutMeSection = () => {
             <br />
               In my free time, I like to learn new things by myself in diverse platforms. Besides I like to play the piano and the synthesizer and I really enjoy taking photos of nature.
             </p>
-            <a className="btn-cv hoverable" href="./assets/documents/cv.pdf" target="_blank">Download my CV</a>
+            <a className="btn-cv hoverable" href={ cv } target="_blank">Download my CV</a>
             
           </div>
           <div className="w50">
-            <img src="./assets/images/img1.jpg" alt="Cartoon" className="img" />
+            <img src={ img1 } alt="Cartoon" className="img" />
           </div>
         </div>
       </section>

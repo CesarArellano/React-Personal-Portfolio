@@ -1,3 +1,11 @@
+import reactPro from '../assets/images/react-pro.svg'
+import flutterWeb from '../assets/images/flutter-web.png'
+import react from '../assets/images/react.png'
+import flutterAdv from '../assets/images/flutter-adv.png'
+import flutterInt from '../assets/images/flutter-disenos.png'
+import flutter from '../assets/images/flutter.png'
+import javascript from '../assets/images/js-moderno.png'
+import masterCSS from '../assets/images/master-css.png';
 
 export const CertificationSection = () => {
   return (
@@ -6,9 +14,19 @@ export const CertificationSection = () => {
         <h2>Licenses and certifications</h2>
       </div>
       <div className="content">
-      <div className="certificationsBx hoverable">
+        <div className="certificationsBx hoverable">
           <div className="centerBox">
-            <img src="./assets/images/flutter-web.png" alt="Certificado Flutter Web" className="certification-logo" />
+            <img src={ reactPro } alt="Certificado React Pro" className="certification-logo" />
+          </div>        
+          <p>React PRO: Lleva tus bases al siguiente nivel</p>
+          <p>Expedition date: May 2023</p>
+          <p className="certicateID">Certificate ID: UC-fb3ab5aa-7d4c-4368-8c0a-f9d980b3fe3c</p>
+          <a href="https://www.udemy.com/certificate/UC-fb3ab5aa-7d4c-4368-8c0a-f9d980b3fe3c/" target="_blank" rel="noreferrer">See certificate</a>
+          <h3>Fernando Herrera<br /><span>FullStack Developer</span></h3>
+        </div>
+        <div className="certificationsBx hoverable">
+          <div className="centerBox">
+            <img src={ flutterWeb } alt="Certificado Flutter Web" className="certification-logo" />
           </div>        
           <p>Flutter Web: Aplicaciones y páginas web profesionales</p>
           <p>Expedition date: August 2022</p>
@@ -18,7 +36,7 @@ export const CertificationSection = () => {
         </div>
         <div className="certificationsBx hoverable">
           <div className="centerBox">
-            <img src="./assets/images/react.png" alt="Certificado React de Cero a Experto" className="certification-logo" />
+            <img src={ react } alt="Certificado React de Cero a Experto" className="certification-logo" />
           </div>        
           <p>React: De cero a experto ( Hooks y MERN )</p>
           <p>Expedition date: November 2021</p>
@@ -28,7 +46,7 @@ export const CertificationSection = () => {
         </div>
         <div className="certificationsBx hoverable">
           <div className="centerBox">
-            <img src="./assets/images/flutter-adv.png" alt="Certificado Flutter Avanzado" className="certification-logo" />
+            <img src={ flutterAdv } alt="Certificado Flutter Avanzado" className="certification-logo" />
           </div>        
           <p>Flutter Avanzado: Lleva tu conocimiento al siguiente nivel</p>
           <p>Expedition date: Sept 2021</p>
@@ -38,7 +56,7 @@ export const CertificationSection = () => {
         </div>
         <div className="certificationsBx hoverable">
           <div className="centerBox">
-            <img src="./assets/images/flutter-disenos.png" alt="Certificado Flutter Intermedio" className="certification-logo" />
+            <img src={ flutterInt } alt="Certificado Flutter Intermedio" className="certification-logo" />
           </div>        
           <p>Flutter Intermedio: Diseños profesionales y animaciones</p>
           <p>Expedition date: May 2021</p>
@@ -48,7 +66,7 @@ export const CertificationSection = () => {
         </div>
         <div className="certificationsBx hoverable">
           <div className="centerBox">
-            <img src="./assets/images/flutter.png" alt="Certificado Flutter Básico" className="certification-logo" />
+            <img src={ flutter } alt="Certificado Flutter Básico" className="certification-logo" />
           </div>        
           <p>Flutter: Tu guía completa de desarrollo para IOS y Android</p>
           <p>Expedition date: May 2021</p>
@@ -58,7 +76,7 @@ export const CertificationSection = () => {
         </div>
         <div className="certificationsBx hoverable">
           <div className="centerBox">
-            <img src="./assets/images/js-moderno.png" alt="Certificado JS Moderno" className="certification-logo" />
+            <img src={ javascript } alt="Certificado JS Moderno" className="certification-logo" />
           </div>        
           <p>JavaScript Moderno: Guía para dominar el lenguaje</p>
           <p>Expedition date: April 2021</p>
@@ -68,7 +86,7 @@ export const CertificationSection = () => {
         </div>
         <div className="certificationsBx hoverable">
           <div className="centerBox">
-            <img src="./assets/images/master-css.png" alt="Certificado JS Moderno" className="certification-logo" />
+            <img src={ masterCSS } alt="Certificado Master CSS" className="certification-logo" />
           </div>        
           <p>Master en CSS: Responsive, SASS, Flexbox, Grid y Bootstrap</p>
           <p>Expedition date: June 2021</p>
