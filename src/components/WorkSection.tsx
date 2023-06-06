@@ -1,7 +1,7 @@
-import product1 from '../assets/images/product1.png';
-import product2 from '../assets/images/product2.png';
-import product3 from '../assets/images/product3.png';
-import product4 from '../assets/images/product4.png';
+import product1 from '../assets/images/product1-compress.png';
+import product2 from '../assets/images/product2-compress.png';
+import product3 from '../assets/images/product3-compress.png';
+import product4 from '../assets/images/product4-compress.png';
 
 export const WorkSection = () => {
   return (
