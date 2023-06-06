@@ -12,7 +12,7 @@
 }
 
 section {
-  padding: 100px;
+  padding: 50px;
 }
 
 .banner {
@@ -157,7 +157,7 @@ p {
 .btn {
   position: relative;
   background: #2196f3;
-  border-radius: 5px;
+  border-radius: 10px;
   display: inline-block;
   color: white;
   margin-top: 20px;
@@ -174,7 +174,7 @@ p {
   display: flex;
   justify-content: center;
   width: 50%;
-  border-radius: 5px;
+  border-radius: 10px;
   background: #5538a5;  
   color: white;
   margin: 30px 25%;
@@ -188,7 +188,7 @@ p {
 
 .btn-view {
   position: relative;
-  border-radius: 5px;
+  border-radius: 10px;
   background: #ff0055;
   display: inline-block;
   color: white;
@@ -226,6 +226,7 @@ p {
   margin: 20px;
   text-align: center;
   transition: 0.5s;
+  border-radius: 15px;
 }
 
 .services .content .servicesBx:hover {
@@ -240,6 +241,7 @@ p {
   margin: 20px;
   text-align: center;
   transition: 0.5s;
+  border-radius: 15px;
 }
 
 .services .content .servicesBx2:hover {
@@ -254,6 +256,7 @@ p {
   margin: 20px;
   text-align: center;
   transition: 0.5s;
+  border-radius: 15px;
 }
 
 .services .content .servicesBx3:hover {
@@ -268,6 +271,7 @@ p {
   margin: 20px;
   text-align: center;
   transition: 0.5s;
+  border-radius: 15px;
 }
 
 .services .content .servicesBx4:hover {
@@ -321,16 +325,25 @@ p {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-top: 20px;
 }
 
 .work .content .workBx {
   width: 25%;
-  padding: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .work .content .workBx img {
   max-width: 100%;
-  padding: 20px;
+  height: 350px;
+  object-fit: cover;
+  margin-bottom: 5px;
+  border-radius: 15px;
 }
 
 .work .heading p {
@@ -357,6 +370,7 @@ p {
   width: calc(25% - 40px);
   padding: 40px;
   margin: 20px;
+  border-radius: 15px;
   background-color: #2196f3;
 }
 
@@ -457,7 +471,7 @@ p {
   padding: 12px 20px;
   margin: 5px;
   max-width: 100px;
-  border-radius: 5px;
+  border-radius: 10px;
   background: #008cff;
   color: white;
   text-transform: uppercase;
@@ -549,6 +563,10 @@ p {
 }
 
 @media (max-width: 1600px) {
+  .work .content .workBx {
+    width: calc(33%);
+  }
+
   .certifications .content .certificationsBx {
     width: calc(33% - 40px);
   }
@@ -747,11 +765,13 @@ p {
     width: 100%;
     margin: 20px 0;
     padding: 20px 40px;
+    border-radius: 15px;
   }
 
   .work .content .workBx {
     width: 100%;
     padding: 10px;
+    margin-bottom: 0px;
   }
 
   .contactInfo .box {
@@ -765,14 +785,14 @@ p {
 
 }
 
-.hoverable{
+.hoverable {
   -webkit-transition: -webkit-box-shadow .25s;
   transition: -webkit-box-shadow .25s;
   transition: box-shadow .25s;
   transition: box-shadow .25s, -webkit-box-shadow .25s;
 }
 
-.hoverable:hover{
-  -webkit-box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+.hoverable:hover {
+  -webkit-box-shadow: 0 8px 17px 0 rgba(0,0,0,0.15), 0 6px 20px 0 rgba(0,0,0,0.18);
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,0.15),0 6px 20px 0 rgba(0,0,0,0.18);
 }
