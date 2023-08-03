@@ -16,6 +16,16 @@ export const CertificationSection = () => {
       <div className="content">
         <div className="certificationsBx hoverable">
           <div className="centerBox">
+            <img src={ flutter } alt="Certificado Flutter Pro" className="certification-logo" />
+          </div>        
+          <p>Flutter - Móvil: De cero a experto - Edición 2023</p>
+          <p>Expedition date: June 2023</p>
+          <p className="certicateID">Certificate ID: UC-3b36f2ba-c3e0-4ce0-b165-1f4fc7e408cc</p>
+          <a href="https://www.udemy.com/certificate/UC-3b36f2ba-c3e0-4ce0-b165-1f4fc7e408cc/" target="_blank" rel="noreferrer">See certificate</a>
+          <h3>Fernando Herrera<br /><span>FullStack Developer</span></h3>
+        </div>
+        <div className="certificationsBx hoverable">
+          <div className="centerBox">
             <img src={ reactPro } alt="Certificado React Pro" className="certification-logo" />
           </div>        
           <p>React PRO: Lleva tus bases al siguiente nivel</p>
