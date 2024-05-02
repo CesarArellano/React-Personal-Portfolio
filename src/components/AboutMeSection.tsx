@@ -1,5 +1,5 @@
-import img1 from '../assets/images/img1.jpg'
-import cv from '../assets/documents/cv.pdf';
+import img1 from "../assets/images/img1.jpg";
+import cv from "../assets/documents/cv.pdf";
 
 export const AboutMeSection = () => {
   return (
@@ -9,31 +9,40 @@ export const AboutMeSection = () => {
           <h2>About Me</h2>
         </div>
         <div className="content">
-        <div className="contentBx w50">
-            <h3>I'm a Front-End Web and Mobile Developer</h3>
+          <div className="contentBx w50">
+            <h3>I'm a Software Engineer, focused on Mobile and Web.</h3>
             <p>
-              I'm studying at Universidad Iberoamericana CDMX in the sixth semester of Computer Science and Telecomunications Engineering.
-            <br />
-            <br />
-              I have two years of experience in Software Development with HTML, CSS, Javascript, PHP and JQuery, both in personal and university projects. But I'm currently focused in Flutter and ReactJS. 
-            <br />
-            <br />
-              I worked in Telematics Business Consultants where I played the role as a mobile app developer with Flutter, to develop a car insurance app.
-            <br />
-            <br />
-              I'm willing to colaborate in a prestige company, where I know I can contribute a lot with my ideas and technical knowledge.
-            <br />
-            <br />
-              In my free time, I like to learn new things by myself in diverse platforms. Besides I like to play the piano and the synthesizer and I really enjoy taking photos of nature.
+              I studied Computer Science and Telecommunications Engineering at
+              the Universidad Iberoamericana CDMX.
+              <br />
+              <br />
+              I have more than 3 years of experience in Software Development
+              with Flutter, React, React Native, Typescript, both in personal
+              and professional projects.
+              <br />
+              <br />
+              I've worked in Bordeless AI where I played the role as a mobile
+              app developer with Flutter, to develop the best EOR product in the
+              market
+              <br />
+              <br />
+              I'm willing to colaborate in a prestige company, where I know I
+              can contribute a lot with my ideas and technical knowledge.
+              <br />
+              <br />
+              In my free time, I like to learn new things by myself in diverse
+              platforms. Besides I like to play the piano and the synthesizer
+              and I really enjoy taking photos of nature.
             </p>
-            <a className="btn-cv hoverable" href={ cv } target="_blank">Download my CV</a>
-            
+            <a className="btn-cv hoverable" href={cv} target="_blank">
+              Download my CV
+            </a>
           </div>
           <div className="w50">
-            <img src={ img1 } alt="Cartoon" className="img" />
+            <img src={img1} alt="Cartoon" className="img" />
           </div>
         </div>
       </section>
     </div>
-  )
-}
+  );
+};
