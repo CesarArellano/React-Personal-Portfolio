@@ -21,18 +21,18 @@ export const AboutMeSection = () => {
               and professional projects.
               <br />
               <br />
-              I've worked in Bordeless AI where I played the role as a mobile
-              app developer with Flutter, to develop the best EOR product in the
-              market
+              I've worked in Nearfleet where I played the role as a mobile app
+              developer with Flutter, to develop the best Intelligent Hyperlocal
+              Delivery product in the market
               <br />
               <br />
-              I'm willing to colaborate in a prestige company, where I know I
-              can contribute a lot with my ideas and technical knowledge.
+              I'm always willing to colaborate in prestigious organizations,
+              where I know I can contribute a lot with my ideas and technical
+              knowledge.
               <br />
               <br />
-              In my free time, I like to learn new things by myself in diverse
-              platforms. Besides I like to play the piano and the synthesizer
-              and I really enjoy taking photos of nature.
+              In my free time, I love to create digital content to teach Mobile
+              Development in my Youtube Channel called RayWayDay
             </p>
             <a className="btn-cv hoverable" href={cv} target="_blank">
               Download my CV

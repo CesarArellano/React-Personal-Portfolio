@@ -20,9 +20,9 @@ section {
   position: relative;
   min-height: 100vh;
   background-blend-mode: darken;
-  background: url('./assets/images/banner-2.jpg'), #0000006f;
+  background: url('./assets/images/banner.jpg'), #0000006f;
   background-size: cover;
-  background-position: top;
+  background-position: center;
   display: flex;
   justify-content: space-between;
   align-items: center;
