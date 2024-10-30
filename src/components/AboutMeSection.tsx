@@ -16,7 +16,7 @@ export const AboutMeSection = () => {
               the Universidad Iberoamericana CDMX.
               <br />
               <br />
-              I have more than 3 years of experience in Software Development
+              I have 4 years of experience in Software Development
               with Flutter, React, React Native, Typescript, both in personal
               and professional projects.
               <br />
@@ -32,7 +32,7 @@ export const AboutMeSection = () => {
               <br />
               <br />
               In my free time, I love to create digital content to teach Mobile
-              Development in my Youtube Channel called RayWayDay
+              Development in my Youtube Channel called <a className="black-text" href="https://youtube.com/@cesarmauricio.arellano">César Arellano</a>
             </p>
             <a className="btn-cv hoverable" href={cv} target="_blank">
               Download my CV

@@ -11,6 +11,14 @@
   scroll-behavior: smooth;
 }
 
+.white-text {
+  color: white;
+}
+
+.black-text {
+  color: black;
+}
+
 section {
   padding: 50px;
 }
@@ -20,7 +28,7 @@ section {
   position: relative;
   min-height: 100vh;
   background-blend-mode: darken;
-  background: url('./assets/images/banner.jpg'), #0000006f;
+  background: url('./assets/images/banner.jpg'), #2b2b2b6f;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -130,6 +138,7 @@ header.sticky ul li a {
 .about .content {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .contentBx {
@@ -146,8 +155,8 @@ header.sticky ul li a {
 }
 
 .img {
-  margin-left: 15%;  
-  width: 60%;
+  margin-left: 12.5%;  
+  width: 80%;
 }
 
 p {

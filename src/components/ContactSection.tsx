@@ -44,7 +44,7 @@ export const ContactSection = () => {
                 </div>
                 <div className="text">
                   <h3>Youtube Channel</h3>
-                  <p>RayWayDay</p>
+                  <a className="white-text" href="https://youtube.com/@cesarmauricio.arellano">César Arellano</a>
                 </div>
               </div>
               <div className="box">
@@ -77,11 +77,20 @@ export const ContactSection = () => {
                 </div>
                 <div className="social-icon">
                   <a
-                    href="https://instagram.com/raywayday.movil/"
+                    href="https://instagram.com/cesarmauricio.arellano/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <i className="fab fa-instagram"></i>
+                  </a>
+                </div>
+                <div className="social-icon">
+                  <a
+                    href="https://tiktok.com/@cesarmauricio.arellano/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fab fa-tiktok"></i>
                   </a>
                 </div>
               </div>
