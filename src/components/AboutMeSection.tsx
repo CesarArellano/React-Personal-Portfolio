@@ -1,48 +1,69 @@
-import img1 from "../assets/images/img1.jpg";
+import img1 from "../assets/images/aboutMe.png";
 import cv from "../assets/documents/cv.pdf";
+
+const TECH_PILLS = ["Flutter", "React", "Django", "Azure", "Docker"];
 
 export const AboutMeSection = () => {
   return (
-    <div>
-      <section className="about" id="about">
-        <div className="heading">
-          <h2>About Me</h2>
-        </div>
-        <div className="content">
-          <div className="contentBx w50">
-            <h3>I'm a Software Engineer, focused on Mobile and Web.</h3>
+    <section className="about" id="about">
+      <h2 className="about-title">
+            About Me
+          </h2>
+      <div className="about-inner">
+        <div className="about-col-left">
+          <div className="about-body">
+          <h3>
+            Full stack software engineer with 5 years building high-impact mobile and web products.
+          </h3>
             <p>
-              I studied Computer Science and Telecommunications Engineering at
-              the Universidad Iberoamericana CDMX.
-              <br />
-              <br />
-              I have 4 years of experience in Software Development
-              with Flutter, React, React Native, Typescript, both in personal
-              and professional projects.
-              <br />
-              <br />
-              I've worked in Nearfleet where I played the role as a mobile app
-              developer with Flutter, to develop the best Intelligent Hyperlocal
-              Delivery product in the market
-              <br />
-              <br />
-              I'm always willing to colaborate in prestigious organizations,
-              where I know I can contribute a lot with my ideas and technical
-              knowledge.
-              <br />
-              <br />
-              In my free time, I love to create digital content to teach Mobile
-              Development in my Youtube Channel called <a className="black-text" href="https://youtube.com/@cesarmauricio.arellano">César Arellano</a>
+              I design systems from scratch, lead cross-functional teams, and deliver measurable results — including a complete platform migration that tripled production speed and accelerated the development cycle by 50%.
             </p>
-            <a className="btn-cv hoverable" href={cv} target="_blank">
+            <p>
+              My experience spans parcel logistics, international HR recruitment, and service payments. I work with Flutter, React, Django, Azure, Docker, and agile methodologies, and I care deeply about clean architecture, engineering excellence, and mentoring.
+            </p>
+            <p>
+              I hold a B.S. in Computer Science and Telecommunications Engineering from Universidad Iberoamericana (Mexico City).
+            </p>
+            <p>
+              Outside work, I build an educational community across Latin America on my YouTube channel{" "}
+              <a className="about-link" href="https://youtube.com/@cesarmauricio.arellano" target="_blank" rel="noreferrer">
+                César Arellano
+              </a>
+              , teaching Flutter and mobile development.
+            </p>
+          </div>
+          <div className="about-pills">
+            {TECH_PILLS.map((tech) => (
+              <span key={tech} className="about-pill">
+                {tech}
+              </span>
+            ))}
+          </div>
+          <div className="about-cta">
+            <a className="about-btn-primary" href={cv} target="_blank" rel="noreferrer">
+              <span className="about-btn-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                  <polyline points="7 10 12 15 17 10" />
+                  <line x1="12" y1="15" x2="12" y2="3" />
+                </svg>
+              </span>
               Download my CV
             </a>
-          </div>
-          <div className="w50">
-            <img src={img1} alt="Cartoon" className="img" />
+            <a className="about-btn-ghost" href="#work">
+              View My Work →
+            </a>
           </div>
         </div>
-      </section>
-    </div>
+        <div className="about-col-right">
+          <div className="about-visual-wrap">
+            <div className="about-img-clip">
+              <img src={img1} alt="César Arellano" className="about-img" />
+            </div>
+            <div className="about-badge">5+ years experience</div>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 };

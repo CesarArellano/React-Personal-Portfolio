@@ -7,28 +7,28 @@ export const ServicesSection = () => {
   return (
     <section className="services" id="services">
       <div className="heading white">
-        <h2>My services</h2>
+        <h2>What I do</h2>
       </div>
       <div className="content">
         <div className="servicesBx">
-          <img src={ service1 } alt="Icono 1" />
-          <h2>Web Design</h2>
-          <p>I have used diferent CSS Frameworks such as Bootstrap and Materialize to design many websites, but also I know how to use native CSS to layout any website based on the requirements.</p>
+          <img src={ service1 } alt="Full Stack" />
+          <h2>Full Stack Development</h2>
+          <p>End-to-end product development with React, TypeScript, and Django (Python). I build REST and GraphQL APIs, design frontend and backend systems, and ship features that scale — from parcel logistics platforms to HR and payment products.</p>
         </div>
         <div className="servicesBx2">
-          <img src={ service2 } alt="Icono 2" />
-          <h2>Web Development</h2>
-          <p>I have experience in many technologies, for example JS, Angular, JQuery, PHP and MySQL. In this area, I have done many projects such as Clone Instagram, Basic Ecommerce and Evaluation Platform.</p> 
+          <img src={ service2 } alt="Mobile" />
+          <h2>Mobile & Web</h2>
+          <p>Advanced Flutter/Dart for iOS and Android, plus React and TypeScript for web. I've delivered production apps for enterprise clients, international HR (EOR), and field operations, with Firebase, REST APIs, and modern tooling.</p>
         </div>
         <div className="servicesBx3">
-          <img src={ service3 } alt="Icono 3" />
-          <h2>Mobile Apps</h2>
-          <p>I'm currently developing mobile apps with Flutter, in this Framework I have done interesting apps like QR Reader, Cinema Listings and News Reader, using Firebase, Google Maps's API and TheMovieDB.</p> 
+          <img src={ service3 } alt="Architecture" />
+          <h2>System Design & Architecture</h2>
+          <p>Clean Architecture, microservices, and distributed systems. I've led full platform rebuilds, replaced legacy monoliths with scalable solutions, and introduced observability (Sentry, DataDog) and automation (n8n, CI/CD) to improve reliability and velocity.</p>
         </div>
         <div className="servicesBx4">
-          <img src={ service4 } alt="Icono 4" />
-          <h2>Video Editing</h2>
-          <p>I have done a lot of personal and academic video projects with Sony Vegas Pro, adding visual and audio effects professionally. At the same time I use Adobe Photoshop and Adobe Audition to improve the video quality</p> 
+          <img src={ service4 } alt="Leadership" />
+          <h2>Technical Leadership & Mentoring</h2>
+          <p>I lead small engineering teams through planning, code reviews, and delivery. I advocate for quality (TDD, automated pipelines), AI-assisted development with strict reviews, and knowledge-sharing — including educational content for developers across Latin America.</p>
         </div>
       </div>
     </section>

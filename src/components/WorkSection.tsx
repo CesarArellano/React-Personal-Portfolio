@@ -1,37 +1,78 @@
-import product1 from '../assets/images/product1-compress.png';
-import product2 from '../assets/images/product2-compress.png';
-import product3 from '../assets/images/product3-compress.png';
-import product4 from '../assets/images/product4-compress.png';
-
 export const WorkSection = () => {
+  const experience = [
+    {
+      company: 'Nearfleet Inc',
+      location: 'Mexico City',
+      role: 'Full Stack Software Engineer',
+      period: 'June 2024 – Present',
+      highlights: [
+        'Designed and led full platform reconstruction (Flutter + Django), tripling production speed.',
+        'Led 3-person engineering team through migration with zero data loss.',
+        'Introduced n8n for workflow automation; Azure & Docker for scalable infrastructure.',
+        'Tech: Flutter, Django, Azure, Docker, n8n, Sentry, GraphQL, CI/CD.',
+      ],
+    },
+    {
+      company: 'Borderless AI',
+      location: 'Mexico City',
+      role: 'Software Engineer — Mobile & Web',
+      period: 'Aug 2023 – Apr 2024',
+      highlights: [
+        'Introduced unit/widget tests and GitLab CI/CD; built Employer of Record Flutter app.',
+        'Integrated Mixpanel and DataDog for analytics and production logging.',
+        'Collaborated with Product, Design, and Engineering across 4 countries (Agile/Scrum).',
+        'Tech: Flutter, Firebase, React, TypeScript, AWS, DataDog, Mixpanel.',
+      ],
+    },
+    {
+      company: 'Gtec Software',
+      location: 'Mexico City',
+      role: 'Mobile App Developer — Mobile & Web',
+      period: '2021 – 2023',
+      highlights: [
+        'Delivered solutions for Soy Cliente (GNP), Tekae, and Ganado Bravo (Grupo BAL).',
+        'Coordinated frontend for leading livestock management system (Mexico & Spain).',
+        'Refactored legacy codebases to reduce technical debt and enable faster iteration.',
+        'Tech: Flutter, GCP, Firebase, REST APIs.',
+      ],
+    },
+    {
+      company: 'YouTube — César Arellano',
+      location: 'Mexico City',
+      role: 'Content Creator: Mobile & Web Development',
+      period: '2021 – Present',
+      highlights: [
+        'Educational community across Latin America focused on Flutter and mobile development.',
+        'Consistent commitment to knowledge-sharing, mentorship, and engineering trends.',
+      ],
+    },
+  ];
+
   return (
-    <section className="work" id="work">
+    <section className="work experience-section" id="work">
       <div className="heading">
-        <h2>Work</h2>
-        <p>I'm a productive and friendly person, I love meeting new people with different perspectives, this has helped me to be a better human being.</p>
-        <p>Below I show some of the most relevant projects that I have achieved thanks to the efforts of the people I have met and have provided their feedback.</p>
+        <h2>Professional experience</h2>
+        <p>Roles and impact across parcel logistics, international HR, and product development.</p>
       </div>
-      <div className="content">
-        <div className="workBx">
-          <img src={ product1 } alt="product 1" className="hoverable" />
-          <h2>Focus Code</h2>
-        </div>
-        <div className="workBx">
-          <img src={ product2 } alt="product 2" className="hoverable" />
-          <h2>Focus Music Player</h2>
-        </div>
-        <div className="workBx">
-          <img src={ product3 } alt="product 3" className="hoverable" />
-          <h2>TokTik</h2>
-        </div>
-        <div className="workBx">
-          <img src={ product4 } alt="product 4" className="hoverable" />
-          <h2>Cinema App</h2>
-        </div>
-        <div className="heading-btn">
-          <a href="https://github.com/CesarArellano?tab=repositories" target="_blank" className="btn-view hoverable" rel="noreferrer">View More</a>
-        </div>
+      <div className="experience-list">
+        {experience.map((job, i) => (
+          <article key={i} className="experience-card">
+            <div className="experience-header">
+              <h3>{job.company}</h3>
+              <span className="experience-period">{job.period}</span>
+            </div>
+            <p className="experience-role">{job.role} · {job.location}</p>
+            <ul className="experience-highlights">
+              {job.highlights.map((h, j) => (
+                <li key={j}>{h}</li>
+              ))}
+            </ul>
+          </article>
+        ))}
+      </div>
+      <div className="heading-btn">
+        <a href="https://github.com/CesarArellano?tab=repositories" target="_blank" className="btn-view hoverable" rel="noreferrer">View more on GitHub</a>
       </div>
     </section>
-  )
-}
+  );
+};

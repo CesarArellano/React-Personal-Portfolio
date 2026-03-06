@@ -132,9 +132,6 @@ export const ContactSection = () => {
             </form>
           </div>
         </div>
-        <a href="/" id="mailTo">
-          Hola
-        </a>
       </section>
     </>
   );

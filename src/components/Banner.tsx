@@ -7,7 +7,7 @@ export const Banner = () => {
             Hello, I'm <br />
             <span>César Arellano</span>
           </h2>
-          <h3>I'm a Software Engineer, focused on Mobile and Web.</h3>
+          <h3>Full Stack Software Engineer · Mobile & Web Development</h3>
           <a href="#about" className="btn hoverable">
             About Me
           </a>
