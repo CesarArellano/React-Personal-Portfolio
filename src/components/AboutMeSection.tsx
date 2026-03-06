@@ -7,14 +7,15 @@ export const AboutMeSection = () => {
   return (
     <section className="about" id="about">
       <h2 className="about-title">
-            About Me
-          </h2>
+        About Me
+      </h2>
+      <h3 className="about-headline">
+        Full stack software engineer with 5 years building high-impact mobile and web products.
+      </h3>
       <div className="about-inner">
         <div className="about-col-left">
           <div className="about-body">
-          <h3>
-            Full stack software engineer with 5 years building high-impact mobile and web products.
-          </h3>
+          
             <p>
               I design systems from scratch, lead cross-functional teams, and deliver measurable results — including a complete platform migration that tripled production speed and accelerated the development cycle by 50%.
             </p>
